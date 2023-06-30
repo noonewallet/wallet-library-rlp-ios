@@ -1,0 +1,497 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		75AAF4D12971D17100FDC626 /* WalletLibRLP.docc in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF4D02971D17100FDC626 /* WalletLibRLP.docc */; };
+		75AAF4D72971D17100FDC626 /* WalletLibRLP.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 75AAF4CC2971D17100FDC626 /* WalletLibRLP.framework */; };
+		75AAF4DD2971D17100FDC626 /* WalletLibRLP.h in Headers */ = {isa = PBXBuildFile; fileRef = 75AAF4CF2971D17100FDC626 /* WalletLibRLP.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		75AAF4E82975610600FDC626 /* RLP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF4E72975610600FDC626 /* RLP.swift */; };
+		75AAF4EA2975617100FDC626 /* RLPError.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF4E92975617100FDC626 /* RLPError.swift */; };
+		75AAF4EC2975629C00FDC626 /* RLP+Types.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF4EB2975629C00FDC626 /* RLP+Types.swift */; };
+		75AAF4EE2975637500FDC626 /* RLPTest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF4ED2975637500FDC626 /* RLPTest.swift */; };
+		75AAF4F0297563D400FDC626 /* RLPTestVector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75AAF4EF297563D400FDC626 /* RLPTestVector.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		75AAF4D82971D17100FDC626 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 75AAF4C32971D17100FDC626 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 75AAF4CB2971D17100FDC626;
+			remoteInfo = WalletLibRLP;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		75AAF4CC2971D17100FDC626 /* WalletLibRLP.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = WalletLibRLP.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AAF4CF2971D17100FDC626 /* WalletLibRLP.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = WalletLibRLP.h; sourceTree = "<group>"; };
+		75AAF4D02971D17100FDC626 /* WalletLibRLP.docc */ = {isa = PBXFileReference; lastKnownFileType = folder.documentationcatalog; path = WalletLibRLP.docc; sourceTree = "<group>"; };
+		75AAF4D62971D17100FDC626 /* WalletLibRLPTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WalletLibRLPTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		75AAF4E72975610600FDC626 /* RLP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLP.swift; sourceTree = "<group>"; };
+		75AAF4E92975617100FDC626 /* RLPError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLPError.swift; sourceTree = "<group>"; };
+		75AAF4EB2975629C00FDC626 /* RLP+Types.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "RLP+Types.swift"; sourceTree = "<group>"; };
+		75AAF4ED2975637500FDC626 /* RLPTest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLPTest.swift; sourceTree = "<group>"; };
+		75AAF4EF297563D400FDC626 /* RLPTestVector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RLPTestVector.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75AAF4C92971D17100FDC626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AAF4D32971D17100FDC626 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AAF4D72971D17100FDC626 /* WalletLibRLP.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		75AAF4C22971D17100FDC626 = {
+			isa = PBXGroup;
+			children = (
+				75AAF4CE2971D17100FDC626 /* WalletLibRLP */,
+				75AAF4DA2971D17100FDC626 /* WalletLibRLPTests */,
+				75AAF4CD2971D17100FDC626 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		75AAF4CD2971D17100FDC626 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				75AAF4CC2971D17100FDC626 /* WalletLibRLP.framework */,
+				75AAF4D62971D17100FDC626 /* WalletLibRLPTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		75AAF4CE2971D17100FDC626 /* WalletLibRLP */ = {
+			isa = PBXGroup;
+			children = (
+				75AAF4E6297560F700FDC626 /* RLP */,
+				75AAF4CF2971D17100FDC626 /* WalletLibRLP.h */,
+				75AAF4D02971D17100FDC626 /* WalletLibRLP.docc */,
+			);
+			path = WalletLibRLP;
+			sourceTree = "<group>";
+		};
+		75AAF4DA2971D17100FDC626 /* WalletLibRLPTests */ = {
+			isa = PBXGroup;
+			children = (
+				75AAF4ED2975637500FDC626 /* RLPTest.swift */,
+				75AAF4EF297563D400FDC626 /* RLPTestVector.swift */,
+			);
+			path = WalletLibRLPTests;
+			sourceTree = "<group>";
+		};
+		75AAF4E6297560F700FDC626 /* RLP */ = {
+			isa = PBXGroup;
+			children = (
+				75AAF4E72975610600FDC626 /* RLP.swift */,
+				75AAF4E92975617100FDC626 /* RLPError.swift */,
+				75AAF4EB2975629C00FDC626 /* RLP+Types.swift */,
+			);
+			path = RLP;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		75AAF4C72971D17100FDC626 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AAF4DD2971D17100FDC626 /* WalletLibRLP.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		75AAF4CB2971D17100FDC626 /* WalletLibRLP */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AAF4E02971D17100FDC626 /* Build configuration list for PBXNativeTarget "WalletLibRLP" */;
+			buildPhases = (
+				75AAF4C72971D17100FDC626 /* Headers */,
+				75AAF4C82971D17100FDC626 /* Sources */,
+				75AAF4C92971D17100FDC626 /* Frameworks */,
+				75AAF4CA2971D17100FDC626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WalletLibRLP;
+			productName = WalletLibRLP;
+			productReference = 75AAF4CC2971D17100FDC626 /* WalletLibRLP.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		75AAF4D52971D17100FDC626 /* WalletLibRLPTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 75AAF4E32971D17100FDC626 /* Build configuration list for PBXNativeTarget "WalletLibRLPTests" */;
+			buildPhases = (
+				75AAF4D22971D17100FDC626 /* Sources */,
+				75AAF4D32971D17100FDC626 /* Frameworks */,
+				75AAF4D42971D17100FDC626 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				75AAF4D92971D17100FDC626 /* PBXTargetDependency */,
+			);
+			name = WalletLibRLPTests;
+			productName = WalletLibRLPTests;
+			productReference = 75AAF4D62971D17100FDC626 /* WalletLibRLPTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		75AAF4C32971D17100FDC626 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1400;
+				LastUpgradeCheck = 1400;
+				TargetAttributes = {
+					75AAF4CB2971D17100FDC626 = {
+						CreatedOnToolsVersion = 14.0.1;
+					};
+					75AAF4D52971D17100FDC626 = {
+						CreatedOnToolsVersion = 14.0.1;
+						LastSwiftMigration = 1400;
+					};
+				};
+			};
+			buildConfigurationList = 75AAF4C62971D17100FDC626 /* Build configuration list for PBXProject "WalletLibRLP" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 75AAF4C22971D17100FDC626;
+			productRefGroup = 75AAF4CD2971D17100FDC626 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				75AAF4CB2971D17100FDC626 /* WalletLibRLP */,
+				75AAF4D52971D17100FDC626 /* WalletLibRLPTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		75AAF4CA2971D17100FDC626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AAF4D42971D17100FDC626 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		75AAF4C82971D17100FDC626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AAF4EC2975629C00FDC626 /* RLP+Types.swift in Sources */,
+				75AAF4E82975610600FDC626 /* RLP.swift in Sources */,
+				75AAF4EA2975617100FDC626 /* RLPError.swift in Sources */,
+				75AAF4D12971D17100FDC626 /* WalletLibRLP.docc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		75AAF4D22971D17100FDC626 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				75AAF4EE2975637500FDC626 /* RLPTest.swift in Sources */,
+				75AAF4F0297563D400FDC626 /* RLPTestVector.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		75AAF4D92971D17100FDC626 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 75AAF4CB2971D17100FDC626 /* WalletLibRLP */;
+			targetProxy = 75AAF4D82971D17100FDC626 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		75AAF4DE2971D17100FDC626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		75AAF4DF2971D17100FDC626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		75AAF4E12971D17100FDC626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wallet-lib-rlp.WalletLibRLP";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75AAF4E22971D17100FDC626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wallet-lib-rlp.WalletLibRLP";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		75AAF4E42971D17100FDC626 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wallet-lib-rlp.WalletLibRLPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		75AAF4E52971D17100FDC626 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.wallet-lib-rlp.WalletLibRLPTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		75AAF4C62971D17100FDC626 /* Build configuration list for PBXProject "WalletLibRLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AAF4DE2971D17100FDC626 /* Debug */,
+				75AAF4DF2971D17100FDC626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AAF4E02971D17100FDC626 /* Build configuration list for PBXNativeTarget "WalletLibRLP" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AAF4E12971D17100FDC626 /* Debug */,
+				75AAF4E22971D17100FDC626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		75AAF4E32971D17100FDC626 /* Build configuration list for PBXNativeTarget "WalletLibRLPTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				75AAF4E42971D17100FDC626 /* Debug */,
+				75AAF4E52971D17100FDC626 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 75AAF4C32971D17100FDC626 /* Project object */;
+}
